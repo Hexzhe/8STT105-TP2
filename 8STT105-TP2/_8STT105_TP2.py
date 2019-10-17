@@ -116,7 +116,7 @@ print(f"Nombre moyen par année:     {avgCountAll:0,.0f}")
 print(f"Coût moyen par année:       {avgCostAll:0,.2f}$")
 print(f"Coût moyen sur 10 ans:      {avgCostAll*10:0,.2f}$\n")
 
-print("Coût moyen (par magnitude, par année, arrondis):")
+print("Coût moyen (par magnitude, par année, arrondi):")
 print(f"    <1  | {avgCountLess1:>5,.0f} x 0$      | {avgCostLess1:13,.2f}$")
 print(f"    1-2 | {avgCountBtwn1And2:>5,.0f} x 5k$     | {avgCostBtwn1And2:13,.2f}$")
 print(f"    2-3 | {avgCountBtwn2And3:>5,.0f} x 25k$    | {avgCostBtwn2And3:13,.2f}$")
